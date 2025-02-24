@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: gibbu
+
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_LOCAL_USERNAME}
+    password: ${DB_LOCAL_PASSWORD}
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: none
